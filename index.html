@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, initialscale=1.0">
+    <title>Climate Change(Home Page)</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,300&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+</head>
+<body>
+<section class="header">
+    <nav>
+        <a href="index.html"><img src="logo.png"></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="">Home Page</a></li>
+                <li><a href="">Gallery</a></li>
+                <li><a href="">Vlogs</a></li>
+                <li><a href="">About Us</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+
+<div class="text-box">
+    <h1>Climate Change in Baguio City</h1>
+    <p>Baguio City is the most vulnerable to climate change <br>with the consequences of climate change
+    </p>
+    <a href="" class="hero-btn">Visit Us To Know More</a>
+</div>
+
+    </section>
+
+
+<!--------------- information ------------>
+<section class="information">
+     <h1>Climate Change in Baguio City</h1>
+     <p>According to the World Wide Fund for Nature-Philippines, Baguio City is the most vulnerable to climate change among the four cities outside the National Capital Region because of its susceptibility to extreme weather conditions.
+        The study found that Baguio City, the nation's summer capital, is most vulnerable to the consequences of climate change, with rain being its worst adversary. Intense storms might cut off Baguio City's economic activity due to floods and landslides. 
+        The fast urbanization and high population density, would make it more difficult for the city to adapt to the changes.</p>    
+    
+    <div class="row">
+        <div class="information-col">
+            <h3>Causes</h3>
+            <p>CO2 produced by human activities is the largest contributor to climate change, as well as land pollution,and water pollution</p>
+        </div>
+        <div class="information-col">
+            <h3>Effects</h3>
+            <p>*Shortage of water in green spaces <br>*Disaster and climate change <br>*Tropical cyclones (floods,landslides,earthquake and wildfires) <br>*High elevations</p>
+        </div>
+        <div class="information-col">
+            <h3>Solutions</h3>
+            <p>*Reduce,reuse,repair,recycle <br>*save energy at home <br>*Switch to sustainable transport <br>*Restore nature to absorb more carbon <br>*Protect the oceans <br>*Protect forest like the Amazon <br>and more...</p>
+        </div>
+
+    </div>
+
+
+
+</section>
+
+
+
+
+
+<!--------JavaScript for Toggle Menu--------->
+<script>
+
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+
+</script>
+
+</body>
+</html>
+
+
+
+
